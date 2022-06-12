@@ -2,7 +2,7 @@ import telebot
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-bot = telebot.TeleBot('5488884442:AAE6Mgr8PV7kbNEWm3EPq5z4es1nwmEBtiQ')
+bot = telebot.TeleBot('5515914636:AAEsbQ7vqq0RQF4Vxeq6G6BnZhvIKf7YNsg')
 
 def get_data(data):
     return pd.read_csv(data, delimiter=',')
